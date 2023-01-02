@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.555">
+    <testcase classname="Title of your feature" name="Title of your scenario" time="0.47">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given I am on Github home page..............................................failed
+When I specify Username and Password........................................skipped
+And Click on SignIn button..................................................skipped
+Then I should be able to see logout option..................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.Step1.i_am_on_Github_home_page(Step1.java:31)
+	at ✽.I am on Github home page(file:///C:/Users/kirchaud1/psi-oct-2022/cucumber-app/src/test/java/features/reporting.feature:13)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

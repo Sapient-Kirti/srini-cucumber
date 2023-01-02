@@ -1,0 +1,11 @@
+
+@tag1
+Scenario: Title of your scenario             # src/test/java/features/reporting.feature:11
+  Given I am on Github home page             # stepDefinitions.Step1.i_am_on_Github_home_page()
+      java.lang.NullPointerException
+	at stepDefinitions.Step1.i_am_on_Github_home_page(Step1.java:31)
+	at ✽.I am on Github home page(file:///C:/Users/kirchaud1/psi-oct-2022/cucumber-app/src/test/java/features/reporting.feature:13)
+
+  When I specify Username and Password       # stepDefinitions.Step1.i_specify_Username_and_Password()
+  And Click on SignIn button                 # stepDefinitions.Step1.click_on_SignIn_button()
+  Then I should be able to see logout option # stepDefinitions.Step1.I_should_be_able_to_see_logout_option()
